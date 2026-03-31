@@ -75,7 +75,7 @@ body, html {
 
 .gallery-thumb {
     width: 150px;
-    height: auto;
+    height: 200px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
@@ -140,6 +140,7 @@ body, html {
 
 .product-name {
     margin-top: 0;
+    
 }
 
 .product-option {
@@ -204,6 +205,12 @@ body, html {
     font-size: 1.2rem;
     color: #666;
 }
+.total-amount-cell {
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: #28a745 !important; 
+    text-align: right;
+}
 
 .grand-total {
     font-size: 2.2rem;
@@ -245,6 +252,10 @@ body, html {
 
 .btn-teruskan:hover {
     background-color: #d33d16;
+}
+
+.label-harga {
+    color: #ff8c00 !important;        
 }
 
 .print-btn {
@@ -309,7 +320,6 @@ body, html {
 .invoice-table .text-center { text-align: center; }
 
 .total-label-cell { text-align: right; font-weight: bold; font-size: 1.2rem; padding-right: 20px; }
-.total-amount-cell { font-weight: bold; font-size: 1.4rem; color: #28a745; text-align: right; }
 
 .invoice-note { text-align: center; color: #777; margin-bottom: 30px; font-style: italic; border-top: 1px solid #eee; padding-top: 20px; }
 
